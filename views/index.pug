@@ -1,0 +1,13 @@
+exextends layout
+
+block content
+  h1 serach Github repo
+  form(method='get', action='/github/:username')
+    #form-group
+      label Search:
+      input.form-control(name='title', type='text')
+  
+    input.btn.btn-primary(type='submit',value='Submit')
+
+
+  
