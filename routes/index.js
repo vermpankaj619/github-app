@@ -30,7 +30,7 @@ router.get('/github/:username', (req, res) => {
     
       res.json(JSON.parse(body));
       console.log(body);
-      db.body.save( { item: "book", qty: 40 } )
+     
       
     });
 
